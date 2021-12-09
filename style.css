@@ -1,0 +1,176 @@
+.bg {
+  width: 1366px;
+  height: 768px;
+  background: #3d087b;
+  padding: 42px 124px 82px 124px;
+}
+.top {
+  height: 130px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  /* border: 1px solid black; */
+  margin-top: 17px;
+  width: 204px;
+  height: 77px;
+  background-image: url(./images/clock_logo.png);
+  background-size: cover;
+}
+.right {
+  /* padding: 20px 39px; */
+  width: 536px;
+  height: 128px;
+  border: 1px solid #ededed;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 3;
+}
+.levelPlus2 {
+  /* border: 1px solid black; */
+  height: 130px;
+  width: 416px;
+  margin: auto;
+  border-radius: 10px;
+  position: absolute;
+  top: 63px;
+  left: 1021px;
+  z-index: 2;
+  background-color: white;
+  opacity: 0.71;
+}
+.levelPlus1 {
+  /* border: 1px solid black; */
+  height: 130px;
+  width: 379px;
+  margin: auto;
+  border-radius: 10px;
+  position: absolute;
+  top: 75px;
+  left: 1039.5px;
+  z-index: 1;
+  background-color: white;
+  opacity: 0.22;
+}
+.time-container {
+  margin: 20px 39px;
+  width: 458px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.time-text {
+  /* border: 1px solid black; */
+  padding-top: 32px;
+  width: 46px;
+  height: 26px;
+  font-size: 20px;
+  font-family: "Manrope";
+  color: #3d087b;
+  font-weight: 600;
+}
+.time {
+  /* border: 1px solid black; */
+  width: 382px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Barlow;
+}
+.time-box {
+  /* border: 1px solid black; */
+  width: 82px;
+  height: 90px;
+  text-align: center;
+}
+.time-box1 {
+  background-image: url(./images/timeline.svg);
+  background-repeat: no-repeat;
+}
+.time-box2 {
+  background-image: url(./images/timeline.svg);
+  background-repeat: no-repeat;
+}
+.time-box3 {
+  background-image: url(./images/timeline.svg);
+  background-repeat: no-repeat;
+}
+.time-box4 {
+  background-image: url(./images/AM_svg.svg);
+}
+.num-hour {
+  height: 43px;
+  width: 38px;
+  font-size: 36px;
+  margin-top: 6px;
+  margin-left: 20px;
+  /* border: 1px solid black; */
+  color: #8a11bf;
+}
+.hour {
+  /* border: 1px solid black; */
+  width: 56px;
+  height: 28px;
+  font-size: 22px;
+  margin: auto;
+  color: #5f0089;
+}
+.num-min {
+  height: 43px;
+  width: 38px;
+  font-size: 36px;
+  margin-top: 6px;
+  margin-left: 20px;
+  /* border: 1px solid black; */
+  color: #8a11bf;
+}
+.min {
+  /* border: 1px solid black; */
+  width: 56px;
+  height: 28px;
+  font-size: 22px;
+  margin: auto;
+  color: #5f0089;
+}
+.num-sec {
+  height: 43px;
+  width: 38px;
+  font-size: 36px;
+  margin-top: 6px;
+  margin-left: 20px;
+  /* border: 1px solid black; */
+  color: #8a11bf;
+}
+.sec {
+  /* border: 1px solid black; */
+  width: 56px;
+  height: 28px;
+  font-size: 22px;
+  margin: auto;
+  color: #5f0089;
+}
+.col1 {
+  color: #8a11bf;
+  height: 22.41px;
+  width: 4.21px;
+  font-size: 45px;
+  position: relative;
+  left: 82.5px;
+  top: -70px;
+}
+.col2 {
+  color: #8a11bf;
+  height: 22.41px;
+  width: 4.21px;
+  font-size: 45px;
+  position: relative;
+  left: 82.5px;
+  top: -70px;
+}
+.am {
+  margin: 24px 17px;
+  font-size: 36px;
+  color: #ffffff;
+}
