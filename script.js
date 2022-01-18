@@ -26,9 +26,9 @@ setInterval(() => {
   click();
 }, 1000);
 
-let i = 10;
-function bb() {
-  i = 11;
-  console.log(i);
-}
-console.log(i);
+// let i = 10;
+// function bb() {
+//   i = 11;
+//   console.log(i);
+// }
+// console.log(i);
