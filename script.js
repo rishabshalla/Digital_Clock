@@ -63,13 +63,7 @@ function setTask() {
   }
   return;
 }
-
-// console.log(wake);
-// console.log(lunch);
-// console.log(nap);
 setInterval(() => {
   clock();
   setTask();
 }, 100);
-
-// console.log(document.getElementById("nap").value);
