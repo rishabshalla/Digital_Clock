@@ -13,10 +13,6 @@ function clock() {
   document.getElementsByClassName("num-sec")[0].innerText = second;
   document.getElementsByClassName("am")[0].innerText = meridiem;
   return;
-  //   console.log(hour);
-  //   console.log(minute);
-  //   console.log(second);
-  //   console.log(meridiem);
 }
 
 function takeInput() {
