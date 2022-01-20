@@ -62,4 +62,4 @@ function setTask() {
 setInterval(() => {
   clock();
   setTask();
-}, 100);
+}, 1000);
